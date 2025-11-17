@@ -12,3 +12,5 @@ add_subdirectory(21_UDPSyncDaytimeClient)
 add_subdirectory(22_UDPSyncDaytimeServer)
 add_subdirectory(23_UDPAsyncDaytimeServer)
 add_subdirectory(24_UDPTCPServer)
+
+add_subdirectory(Examples)
