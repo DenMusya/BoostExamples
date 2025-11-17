@@ -23,19 +23,4 @@ std::string Client::getAnswer() {
   std::istream is(&buffer);
   std::getline(is, answer);
   return answer;
-  // while (true) {
-  //   std::string buf;
-  //   buf.resize(128);
-  //   boost::system::error_code error;
-
-  //   std::size_t len = socket_.read_some(boost::asio::buffer(buf), error);
-
-  //   if (error == boost::asio::error::eof)
-  //     break;
-  //   else if (error)
-  //     std::cerr << "Error during receiving: " << error.message() << std::endl;
-
-    
-  //   answer += std::string(buf, 0, len);
-  // }
 }
